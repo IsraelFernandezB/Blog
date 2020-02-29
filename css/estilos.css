@@ -1,0 +1,30 @@
+  .encabezado{
+  height: 160px;}
+
+  .center{height: 160px;}
+
+  .navegacion{height: 60px;}
+
+  .redes-sociales{justify-content: flex-end;}
+
+  .img-social{line-height: 280px;}
+
+  .img-social img{width: 30px;}
+
+  .nav-link{color: #000 !important;}
+
+  .navbar-nav{width: 100%;}
+
+  @media (max-width: 570px){
+
+  .encabezado{height: 300px;}
+
+  .col-logo{margin-top: 10px;}
+
+  .img-social{line-height: 200px;}
+
+  .redes-sociales{justify-content: center;}
+
+  .img-social img{width: 50px; margin: 0px;}
+
+  .navbar-nav{text-align: center;}
