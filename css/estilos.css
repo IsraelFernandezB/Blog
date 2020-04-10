@@ -3,7 +3,7 @@
 
   .center{height: 160px;}
 
-  .navegacion{height: 60px;}
+  .navbar{height: 60px;}
 
   .redes-sociales{justify-content: flex-end;}
 
@@ -11,9 +11,21 @@
 
   .img-social img{width: 30px;}
 
-  .nav-link{color: #000 !important;}
+  .nav-link{color: #000;}
+
+  .navbar-nav{align-items: center;}
+
+  .nav-item :hover{background: #311b92; color: #fff; height: 60px;}
+
+  .navbar-nav :hover{line-height: 40px;}
 
   .navbar-nav{width: 100%;}
+
+  textarea{width: 90%;margin-left: 5px;}
+
+  .container i{margin-bottom: 2px;}
+
+  .form-group i{font-size: 3em;}
 
   @media (max-width: 570px){
 
@@ -27,4 +39,31 @@
 
   .img-social img{width: 50px; margin: 0px;}
 
-  .navbar-nav{text-align: center;}
+  .navbar-nav{text-align: center; height: 500px;}
+
+  .navbar{height: 500px;}
+
+  .nav-item :hover{width: 400px; border-radius: 5px;}
+
+  .form-group i{font-size: 40px;}
+
+  textarea{margin-left: 5px;}
+
+  .texto1{order: 1;}
+
+  .fanny{order: 2; width: 100%;}
+
+  .horatio{width: 100%; margin-bottom: 10px; margin-top: 20px;}
+
+  .form-group{order: 3; margin-top: 20px; width: 100%;}
+
+  .col-12{display: flex; flex-wrap: wrap; padding-top: 10px;}
+
+  .col-4{display: none;}
+
+
+
+
+
+
+}
